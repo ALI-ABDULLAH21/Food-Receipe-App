@@ -1,0 +1,83 @@
+.inrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.homie,
+.favi {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.field {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  width: 200px;
+  height:20px;
+}
+
+.Inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.picturee {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imagee {
+  width: 300px; /* Set a fixed width for all images */
+  height: 300px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.picturee p {
+  margin-top: 5px; /* Optional: Add some margin to the text */
+}
+
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+}
+/* Add this CSS to your stylesheet */
+
+/* Container styles */
+.details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Adjust the gap between columns */
+}
+
+/* Styles for the left column (ingredients) */
+.ingredients-column {
+  grid-column: 1; /* Place in the first column */
+}
+
+/* Styles for the right column (recipe picture) */
+.picture-column {
+  grid-column: 2; /* Place in the second column */
+}
+
+/* Additional styles */
+.sinimg {
+  width: 100%; /* Make sure the image takes the full width of its container */
+}
+
+/* Adjust styles as needed */

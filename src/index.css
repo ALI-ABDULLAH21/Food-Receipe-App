@@ -1,0 +1,36 @@
+.inrow{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-flow:row wrap;
+}
+.homie{
+  text-decoration: none;
+  color:black;
+}
+.favi{
+  text-decoration: none;
+  color:black;
+}
+.list{
+  list-style-type: none;
+}
+.field{
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  box-shadow: black;
+  width:200px;
+}
+.Inner{
+  display:grid;
+  grid-template-columns: 30% 30% 30%;
+  gap:20px;
+
+}
+.iamgee{
+  position:absolute;
+  width:150px;
+  height:150px;
+}
